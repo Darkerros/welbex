@@ -1,0 +1,27 @@
+.mainContentExternalInfo {
+
+  &__title {
+    margin: 0;
+    max-width: 290px;
+
+    color: var(--primary-text-color);
+
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: right;
+
+    &_extra {
+      font-family: Inter, serif;
+      font-style: normal;
+      font-weight: 900;
+
+      background: var(--text-second-gradient);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+  }
+}

@@ -1,0 +1,40 @@
+.mainContentBaseInfo {
+
+  &__title {
+    margin: 0;
+    max-width: 360px;
+
+    color: var(--primary-text-color);
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+  }
+
+  &__titleBrandName {
+    margin: 0;
+
+    background: var(--text-color-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+  }
+
+  &__subtitle {
+    margin-top: 30px;
+    max-width: 275px;
+
+    color: var(--primary-text-color);
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+  }
+}

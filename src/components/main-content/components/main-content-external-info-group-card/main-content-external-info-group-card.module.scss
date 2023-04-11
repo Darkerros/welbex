@@ -1,0 +1,30 @@
+.mainContentExternalInfoGroupCard {
+  max-width: 150px;
+  text-align: right;
+
+  &__title {
+    margin: 0;
+
+    color: var(--primary-text-color);
+    font-family: 'Inter', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+
+  &__content {
+    margin: 6px 0 0;
+
+    color: var(--primary-text-color);
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: right;
+  }
+}
