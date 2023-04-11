@@ -3,6 +3,7 @@
   flex-grow: 1;
   display: flex;
   justify-content: end;
+  flex-basis: 390px;
 
   &__tel {
     color: var(--primary-text-color);
