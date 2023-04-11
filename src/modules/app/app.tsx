@@ -1,6 +1,7 @@
 import styles from './app.module.scss'
 import {Header} from "../../components/header";
 import {MainContent} from "../../components/main-content";
+import {Footer} from "../../components/footer";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <main>
           <MainContent/>
       </main>
+      <Footer/>
     </div>
   );
 }
