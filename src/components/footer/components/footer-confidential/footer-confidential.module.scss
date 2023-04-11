@@ -1,0 +1,21 @@
+.footerConfidential {
+  margin-top: 70px;
+
+  color: var(--primary-text-color);
+  font-family: Montserrat, serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+
+  text-align: right;
+
+  &__text {
+    margin: 0;
+  }
+
+  &__link {
+    margin-top: 5px;
+    color: inherit;
+  }
+}
