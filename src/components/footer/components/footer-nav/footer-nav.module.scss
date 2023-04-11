@@ -1,0 +1,13 @@
+.footerNav {
+  gap: 98px;
+  flex-wrap: wrap;
+  display: flex;
+
+  &__about {
+    max-width: 200px;
+  }
+
+  &__menu {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

@@ -1,0 +1,30 @@
+.footerNavColumn {
+  &__title {
+    margin: 0;
+
+    color: var(--secondary-text-color);
+    font-family: Inter, serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+
+  &__dataContainer {
+    margin: 20px 0 0;
+    padding: 0;
+
+    row-gap: 10px;
+    column-gap: 52px;
+
+    display: grid;
+    flex-wrap: wrap;
+
+    grid-template-columns: repeat(1, 1fr);
+
+    list-style: none;
+  }
+}
