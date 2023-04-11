@@ -1,5 +1,17 @@
 .mainContentBaseInfo {
 
+  @media screen and (max-width: 750px) {
+    & {
+      text-align: center;
+    }
+  }
+
+  @media screen and (max-width: 425px) {
+    & {
+      text-align: start;
+    }
+  }
+
   &__title {
     margin: 0;
     max-width: 360px;
@@ -10,6 +22,14 @@
     font-weight: 400;
     font-size: 48px;
     line-height: 58px;
+
+    @media screen and (max-width: 425px) {
+      & {
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 44px;
+      }
+    }
   }
 
   &__titleBrandName {
@@ -24,6 +44,13 @@
     font-weight: 900;
     font-size: 48px;
     line-height: 58px;
+
+    @media screen and (max-width: 425px) {
+      & {
+        font-size: 36px;
+        line-height: 44px;
+      }
+    }
   }
 
   &__subtitle {
@@ -36,5 +63,19 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
+
+    @media screen and (max-width: 750px) {
+      & {
+        margin: 20px auto 0;
+        text-align: center;
+      }
+    }
+
+    @media screen and (max-width: 425px) {
+      & {
+        margin: 15px 0 0;
+        text-align: start;
+      }
+    }
   }
 }

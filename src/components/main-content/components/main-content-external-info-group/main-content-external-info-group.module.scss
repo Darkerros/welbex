@@ -5,4 +5,21 @@
   display: flex;
   flex-wrap: wrap;
   max-width: 336px;
+
+  @media screen and (max-width: 750px) {
+    & {
+      justify-content: center;
+    }
+  }
+  @media screen and (max-width: 425px) {
+    & {
+      margin-top: 20px;
+
+      column-gap: 10px;
+      row-gap: 14px;
+
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
 }
