@@ -1,3 +1,5 @@
+@import url(./vendors/fonts/fonts.scss);
+
 body {
   margin: 0;
   font-family: Inter, sans-serif;
@@ -6,6 +8,9 @@ body {
 
   --primary-text-color: #E4E5EA;
   --secondary-text-color: #656566;
+
+  --text-color-gradient: linear-gradient(92deg, #FCB045 20%, #FF3F78 70%);
+  --text-second-gradient: linear-gradient(92deg, #FCB045 1%, #e00d0d 100%);
 
   background: #1E1E1E;
 }
