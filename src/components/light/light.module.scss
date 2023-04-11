@@ -1,0 +1,11 @@
+.light {
+  position: absolute;
+  z-index: -1;
+  display: block;
+
+  width: 300px;
+  height: 300px;
+
+  border-radius: 50%;
+  filter: blur(120px);
+}
