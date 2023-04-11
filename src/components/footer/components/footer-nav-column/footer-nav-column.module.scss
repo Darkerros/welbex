@@ -11,6 +11,13 @@
 
     letter-spacing: 0.05em;
     text-transform: uppercase;
+
+    @media screen and (max-width: 425px) {
+      & {
+        font-size: 12px;
+        line-height: 15px;
+      }
+    }
   }
 
   &__dataContainer {
@@ -26,5 +33,9 @@
     grid-template-columns: repeat(1, 1fr);
 
     list-style: none;
+    
+    @media screen and (max-width: 425px) {
+      column-gap: 48px;
+    }
   }
 }

@@ -11,9 +11,9 @@ export const FooterNav = () => {
             </FooterNavColumn>
             <FooterNavColumn title="Меню" extraDataContainerClass={styles.footerNav__menu}>
                 <FooterNavColumnItem href="#">Расчёт стоимости</FooterNavColumnItem>
-                <FooterNavColumnItem href="#">Кейсы</FooterNavColumnItem>
+                <FooterNavColumnItem href="#" extraClass={styles.footerNav__case_pos_mobile}>Кейсы</FooterNavColumnItem>
                 <FooterNavColumnItem href="#">Услуги</FooterNavColumnItem>
-                <FooterNavColumnItem href="#">Благодарственные письма</FooterNavColumnItem>
+                <FooterNavColumnItem href="#" extraClass={styles.footerNav__charity_pos_mobile}>Благодарственные письма</FooterNavColumnItem>
                 <FooterNavColumnItem href="#">Виджеты</FooterNavColumnItem>
                 <FooterNavColumnItem href="#">Сертификаты</FooterNavColumnItem>
                 <FooterNavColumnItem href="#">Интеграции</FooterNavColumnItem>

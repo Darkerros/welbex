@@ -3,11 +3,36 @@
   flex-wrap: wrap;
   display: flex;
 
+  @media screen and (max-width: 808px) {
+    & {
+      flex-direction: column;
+      gap: 30px;
+    }
+  }
+
   &__about {
     max-width: 200px;
   }
 
   &__menu {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+
+  &__case_pos_mobile {
+    @media screen and (max-width: 425px) {
+      & {
+        grid-row-start: 2;
+        grid-column-start: 2;
+      }
+    }
+  }
+
+  &__charity_pos_mobile {
+    @media screen and (max-width: 425px) {
+      & {
+        grid-row-start: 1;
+        grid-column-start: 2;
+      }
+    }
   }
 }

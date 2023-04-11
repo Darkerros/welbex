@@ -8,18 +8,32 @@
 
   color: var(--primary-text-color);
 
+  @media screen and (max-width: 1085px) {
+    align-self: flex-end;
+  }
+
+  @media screen and (max-width: 808px) {
+    align-self: start;
+    text-align: start;
+  }
+
   &__title {
     margin: 0;
 
+    color: var(--secondary-text-color);
     font-family: Inter, serif;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 17px;
 
-    text-align: right;
     letter-spacing: 0.05em;
     text-transform: uppercase;
+    
+    @media screen and (max-width: 425px) {
+      font-size: 12px;
+      line-height: 15px;
+    }
   }
 
   &__tel {
@@ -31,7 +45,6 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
-    text-align: right;
 
     text-decoration: none;
   }
@@ -43,6 +56,11 @@
     align-self: flex-end;
     margin-top: 20px;
     gap: 10px;
+
+    @media screen and (max-width: 808px) {
+      margin-top: 10px;
+      align-self: start;
+    }
   }
 
   &__adress {
@@ -53,6 +71,9 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
-    text-align: right;
+
+    @media screen and (max-width: 808px) {
+      margin-top: 10px;
+    }
   }
 }
