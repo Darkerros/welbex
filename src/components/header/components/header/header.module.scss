@@ -4,6 +4,10 @@
   gap: 52px;
   display: flex;
   align-items: baseline;
+
+  @media screen and (max-width: 1200px) {
+    padding: 0 20px;
+  }
   
   @media screen and (max-width: 925px) {
     justify-content: space-between;
@@ -13,7 +17,6 @@
     justify-content: center;
 
     margin: 0;
-    padding: 20px 0;
-    background: #1E1E1E;
+    padding: 20px 16px;
   }
 }

@@ -4,6 +4,10 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+
+  @media screen and (max-width: 1200px) {
+    padding: 20px 20px;
+  }
   
   @media screen and (max-width: 1085px) {
     gap: 30px;
@@ -12,7 +16,7 @@
   }
 
   @media screen and (max-width: 808px) {
-    padding: 40px 0 60px;
+    padding: 40px 16px 60px;
     align-items: start;
   }
 }
