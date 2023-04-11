@@ -4,4 +4,16 @@
   gap: 52px;
   display: flex;
   align-items: baseline;
+  
+  @media screen and (max-width: 925px) {
+    justify-content: space-between;
+  }
+
+  @media screen and (max-width: 750px) {
+    justify-content: center;
+
+    margin: 0;
+    padding: 20px 0;
+    background: #1E1E1E;
+  }
 }

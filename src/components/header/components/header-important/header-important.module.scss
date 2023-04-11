@@ -2,6 +2,12 @@
   gap: 30px;
   display: flex;
 
+  @media screen and (max-width: 425px) {
+    & {
+      gap: 16px;
+    }
+  }
+
   &__link {
     color: var(--primary-text-color);
     font-family: Inter, serif;
@@ -11,5 +17,18 @@
     line-height: 19px;
 
     text-decoration: none;
+
+    @media screen and (max-width: 580px) {
+      &:nth-of-type(n + 5) {
+        display: none;
+      }
+    }
+
+    @media screen and (max-width: 425px) {
+      & {
+        font-size: 12px;
+        line-height: 15px;
+      }
+    }
   }
 }
